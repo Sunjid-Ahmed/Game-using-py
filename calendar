@@ -1,0 +1,7 @@
+import calendar
+
+# Specify the year
+year = 2023
+
+# Print the calendar
+print(calendar.calendar(year))
