@@ -1,0 +1,16 @@
+#mini project:guess the number game
+
+import random
+target=random.randint(1,100)
+while True:
+    userChoice=int(input("Guess a number between 1 and 100: "))
+    if(userChoice==target):
+        print("Congratulations! You have guessed the number")
+        break
+    elif(userChoice<target):
+        print("Try again!Your number is too small.Please guess a higher number")
+    else:
+        print("Try again! Your number is too big. Please guess a lower number")
+
+
+print("----GAME OVER----")
